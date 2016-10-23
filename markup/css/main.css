@@ -1,0 +1,19 @@
+/**
+ * Description: main styles.
+ * Version: 1.0.0
+ * Last update: 
+ * Author: User Name
+ */
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  /* 1 */
+  text-overflow: ellipsis;
+  /* 2 */
+  overflow: hidden;
+}
